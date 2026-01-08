@@ -279,4 +279,5 @@ def optimize_shipment(shipment_id: str, lambda_cost: float = 0.5, k: int = 6):
     }
 
 
-# Run it -  uvicorn app:app --reload --port 8000
+
+# Run it -  uvicorn app:logistics_qaoa --reload --port 8000
